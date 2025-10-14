@@ -161,27 +161,24 @@ C:\githubrepo\ktds-edu-cicd-azure\README.md
 
 수강생별 개인 eduUserID와 VM Server 접속 주소를 확인하자. eduUserID 는 AKS 에서 사용할 개인별 Namespace 로 활용 될 것이다.
 
-| 이름   | 소속           | Email                 | eduUserID | VM Server | VM Server IP  |
-| ------ | -------------- | --------------------- | --------- | --------- | ------------- |
-| 송양종 | CloudCoE팀     | yj.song@kt.com        | edu00     | eduVM     | 4.217.174.3   |
-| 송양종 | CloudCoE팀     | yj.song@kt.com        | edu01     | eduVM01   | 4.230.2.176   |
-| 강민수 | 인증플랫폼팀   | edward.kang@kt.com    | edu02     | eduVM02   | 4.217.234.214 |
-| 권승일 | Cloud CoE팀    | kwon.seungil@kt.com   | edu03     | eduVM03   | 4.230.1.176   |
-| 김무성 | PAY서비스팀    | mu-seong.kim@kt.com   | edu04     | eduVM04   | 4.217.238.198 |
-| 김혜린 | Cloud CoE팀    | kim.hyerin@kt.com     | edu05     | eduVM05   | 4.230.2.215   |
-| 문은희 | 보안운영팀     | ehmoon@kt.com         | edu06     | eduVM06   | 4.217.238.125 |
-| 박한범 | 플랫폼CoE팀    | hanbeom.park@kt.com   | edu07     | eduVM07   | 4.230.2.181   |
-| 여정동 | 플랫폼CoE팀    | jeongdong.yeo@kt.com  | edu08     | eduVM08   | 4.230.2.78    |
-| 염형필 | 아키텍처팀     | davidhungpill@kt.com  | edu09     | eduVM09   | 4.217.234.42  |
-| 유제천 | 에듀DX플랫폼팀 | jecheon.yu@kt.com     | edu10     | eduVM10   | 4.230.0.210   |
-| 이정필 | 플랫폼CoE팀    | jeongpil.lee@kt.com   | edu11     | eduVM11   | 4.230.0.130   |
-| 정진영 | 보안운영팀     | jin-young.jung@kt.com | edu12     | eduVM12   | 4.230.0.58    |
-| 조민정 | Cloud CoE팀    | hs-cho@kt.com         | edu13     | eduVM13   | 4.217.238.241 |
-| 주성환 | 플랫폼CoE팀    | sunghwan.joo@kt.com   | edu14     | eduVM14   | 4.230.1.165   |
-| 한만권 | Cloud CoE팀    | mk.han@kt.com         | edu15     | eduVM15   | 4.217.238.18  |
-| 노진욱 |                |                       | edu16     | eduVM16   | 4.217.237.232 |
-| 유동섭 |                |                       | edu17     | eduVM17   | 4.230.2.11    |
-|        |                |                       | edu18     | eduVM18   | 4.230.2.15    |
+| 이름   | 소속 | Email          | eduUserID | VM Server | VM Server IP |
+| ------ | ---- | -------------- | --------- | --------- | ------------ |
+| 송양종 |      | yj.song@kt.com | edu00     | eduVM     | 4.217.174.3  |
+| 송양종 |      | yj.song@kt.com | edu01     | eduVM01   | 4.230.2.176  |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
+|        |      |                |           |           |              |
 
 
 
