@@ -186,29 +186,29 @@ C:\githubrepo\ktds-edu-cicd-azure\README.md
 
 개인별 Azure ID 가 준비되어 있다.
 
-eduUserID  와 ssongmantopgmail.onmicrosoft.com 도메인의 조합이 아래 표를 참고한다.
+eduUserID  와 rohansongtopgmail014.onmicrosoft.com 도메인의 조합이 아래 표를 참고한다.
 
 ```sh
 
-edu00@ssongmantopgmail.onmicrosoft.com
-edu01@ssongmantopgmail.onmicrosoft.com
-edu02@ssongmantopgmail.onmicrosoft.com
-edu03@ssongmantopgmail.onmicrosoft.com
-edu04@ssongmantopgmail.onmicrosoft.com
-edu05@ssongmantopgmail.onmicrosoft.com
-edu06@ssongmantopgmail.onmicrosoft.com
-edu07@ssongmantopgmail.onmicrosoft.com
-edu08@ssongmantopgmail.onmicrosoft.com
-edu09@ssongmantopgmail.onmicrosoft.com
-edu10@ssongmantopgmail.onmicrosoft.com
-edu11@ssongmantopgmail.onmicrosoft.com
-edu12@ssongmantopgmail.onmicrosoft.com
-edu13@ssongmantopgmail.onmicrosoft.com
-edu14@ssongmantopgmail.onmicrosoft.com
-edu15@ssongmantopgmail.onmicrosoft.com
-edu16@ssongmantopgmail.onmicrosoft.com
-edu17@ssongmantopgmail.onmicrosoft.com
-edu18@ssongmantopgmail.onmicrosoft.com
+edu00@rohansongtopgmail014.onmicrosoft.com
+edu01@rohansongtopgmail014.onmicrosoft.com
+edu02@rohansongtopgmail014.onmicrosoft.com
+edu03@rohansongtopgmail014.onmicrosoft.com
+edu04@rohansongtopgmail014.onmicrosoft.com
+edu05@rohansongtopgmail014.onmicrosoft.com
+edu06@rohansongtopgmail014.onmicrosoft.com
+edu07@rohansongtopgmail014.onmicrosoft.com
+edu08@rohansongtopgmail014.onmicrosoft.com
+edu09@rohansongtopgmail014.onmicrosoft.com
+edu10@rohansongtopgmail014.onmicrosoft.com
+edu11@rohansongtopgmail014.onmicrosoft.com
+edu12@rohansongtopgmail014.onmicrosoft.com
+edu13@rohansongtopgmail014.onmicrosoft.com
+edu14@rohansongtopgmail014.onmicrosoft.com
+edu15@rohansongtopgmail014.onmicrosoft.com
+edu16@rohansongtopgmail014.onmicrosoft.com
+edu17@rohansongtopgmail014.onmicrosoft.com
+edu18@rohansongtopgmail014.onmicrosoft.com
 
 ```
 
@@ -225,9 +225,7 @@ Mobaxterm 을 실행하여 VM 접속정보를 위한 신규 session 을 생성�
 
   - SSH : 팝업창 상단 아이콘 클릭
 
-
-
-![image-20240609163324386](./assets/image-20240609163324386.png)
+![image-20250921155037111](./assets/image-20250921155037111.png)
 
 
 
