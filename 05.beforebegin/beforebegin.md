@@ -161,24 +161,41 @@ C:\githubrepo\ktds-edu-cicd-azure\README.md
 
 수강생별 개인 eduUserID와 VM Server 접속 주소를 확인하자. eduUserID 는 AKS 에서 사용할 개인별 Namespace 로 활용 될 것이다.
 
-| 이름   | 소속 | Email          | eduUserID | VM Server | VM Server IP |
-| ------ | ---- | -------------- | --------- | --------- | ------------ |
-| 송양종 |      | yj.song@kt.com | edu00     | eduVM     | 4.217.174.3  |
-| 송양종 |      | yj.song@kt.com | edu01     | eduVM01   | 4.230.2.176  |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
-|        |      |                |           |           |              |
+| 순번 | 이름     | 소속                   | Email                                       | eduUserID | VM Server | VM Server IP |
+| ---- | -------- | ---------------------- | ------------------------------------------- | --------- | --------- | ------------ |
+| 0    | 송양종   |                        |                                             | edu00     | eduVM00   |              |
+| 1    | 송양종   |                        |                                             | edu01     | eduVM01   |              |
+| 2    | 곽유진   | 인프라컨설팅팀         | uj.kwak@kt.com                              | edu02     | eduVM02   |              |
+| 3    | 김경진   | OSS개발팀              | gjin.kim@kt.com                             | edu03     | eduVM03   |              |
+| 4    | 김나현   | 보안정책팀             | na-hyun.kim@kt.com                          | edu04     | eduVM04   |              |
+| 5    | 김명선   | 미디어AX팀             | myungsun.kim@kt.com                         | edu05     | eduVM05   |              |
+| 6    | 김무성   | 빌링개발팀             | mu-seong.kim@kt.com                         | edu06     | eduVM06   |              |
+| 7    | 김슬예나 | 보안정책팀             | seul.yn@kt.com                              | edu07     | eduVM07   |              |
+| 8    | 김승미   | IA Core2팀             | soomee.kim@kt.com                           | edu08     | eduVM08   |              |
+| 9    | 김영욱   | 데이터DX개발팀         | yw.kim88@kt.com                             | edu09     | eduVM09   |              |
+| 10   | 김용기   | Cloud매니지드팀        | [brave.kim@kt.com](mailto:brave.kim@kt.com) | edu10     | eduVM10   |              |
+| 11   | 김현용   | IA Core2팀             | hyunyong.kim@kt.com                         | edu11     | eduVM11   |              |
+| 12   | 류경하   | 아키텍처팀             | kyungha.ryu@kt.com                          | edu12     | eduVM12   |              |
+| 13   | 오유민   | OSS개발팀              | yumin.oh@kt.com                             | edu13     | eduVM13   |              |
+| 14   | 이건우   | Cloud컨설팅팀          | geonwo.lee@kt.com                           | edu14     | eduVM14   |              |
+| 15   | 이병훈   | DWP개발팀              | byunghoon.lee@kt.com                        | edu15     | eduVM15   |              |
+| 16   | 이상현   | CRM사업팀              | sanghyeon.lee@kt.com                        | edu16     | eduVM16   |              |
+| 17   | 이상화   | 미래에셋증권퇴직연금TF | sanghwa7.lee@kt.com                         | edu17     | eduVM17   |              |
+| 18   | 이유진   | 데이터DX개발팀         | eujin.lee@kt.com                            | edu18     | eduVM18   |              |
+| 19   | 이정운   | Cloud매니지드팀        | jw.jw@kt.com                                | edu19     | eduVM19   |              |
+| 20   | 이충명   | Cloud매니지드팀        | myeong.lee@kt.com                           | edu20     | eduVM20   |              |
+| 21   | 임성식   | 빌링개발팀             | sslim@kt.com                                | edu21     | eduVM21   |              |
+| 22   | 임재필   | 미디어AX팀             | jaepil.lim@kt.com                           | edu22     | eduVM22   |              |
+| 23   | 임진영   | Cloud수행팀            | jinyoung.lim@kt.com                         | edu23     | eduVM23   |              |
+| 24   | 장선후   | Cloud매니지드팀        | jang.sh@kt.com                              | edu24     | eduVM24   |              |
+| 25   | 최민혜   | 고객개발팀             | minhye.choi@kt.com                          | edu25     | eduVM25   |              |
+| 26   | 최유리   | Cloud매니지드팀        | 82307325@kt.com                             | edu26     | eduVM26   |              |
+| 27   | 최지은   | OSS개발팀              | jieun.choi172@kt.com                        | edu27     | eduVM27   |              |
+| 28   | 허진보   | 미디어AX팀             | jinbo.heo@kt.com                            | edu28     | eduVM28   |              |
+| 29   | 홍문기   | Cloud매니지드팀        | 82307326@kt.com                             | edu29     | eduVM29   |              |
+| 30   | 황상미   | AI플랫폼팀             | sangmi.hwang@kt.com                         | edu30     | eduVM30   |              |
+
+
 
 
 
@@ -192,23 +209,9 @@ eduUserID  와 rohansongtopgmail014.onmicrosoft.com 도메인의 조합이 아�
 
 edu00@rohansongtopgmail014.onmicrosoft.com
 edu01@rohansongtopgmail014.onmicrosoft.com
-edu02@rohansongtopgmail014.onmicrosoft.com
-edu03@rohansongtopgmail014.onmicrosoft.com
-edu04@rohansongtopgmail014.onmicrosoft.com
-edu05@rohansongtopgmail014.onmicrosoft.com
-edu06@rohansongtopgmail014.onmicrosoft.com
-edu07@rohansongtopgmail014.onmicrosoft.com
-edu08@rohansongtopgmail014.onmicrosoft.com
-edu09@rohansongtopgmail014.onmicrosoft.com
-edu10@rohansongtopgmail014.onmicrosoft.com
-edu11@rohansongtopgmail014.onmicrosoft.com
-edu12@rohansongtopgmail014.onmicrosoft.com
-edu13@rohansongtopgmail014.onmicrosoft.com
-edu14@rohansongtopgmail014.onmicrosoft.com
-edu15@rohansongtopgmail014.onmicrosoft.com
-edu16@rohansongtopgmail014.onmicrosoft.com
-edu17@rohansongtopgmail014.onmicrosoft.com
-edu18@rohansongtopgmail014.onmicrosoft.com
+...
+edu29@rohansongtopgmail014.onmicrosoft.com
+edu30@rohansongtopgmail014.onmicrosoft.com
 
 ```
 
@@ -314,8 +317,6 @@ $ gh repo list
 
 
 
-
-
 ### (3) Sample Source Fork
 
 샘플 소스를 가져오기 위해서 포크(fork) 방식을 사용한다. 포크는 원본 리포지토리를 자신의 계정으로 복사하는 것을 의미한다. 이를 통해 독립적인 리포지토리에서 작업을 진행할 수 있다.
@@ -358,8 +359,9 @@ $ ll
 
 # 확인3
 # github web ui 에서도 확인해 보자.
-https://github.com/rohansong/    # <-- 각 개인 계정의 github 을 확인한다.
+https://github.com/<자신의github계정>/    # <-- 각 개인 계정의 github 을 확인한다.
 
+https://github.com/rohansong/
 
 ```
 
@@ -390,7 +392,62 @@ https://github.com/rohansong/    # <-- 각 개인 계정의 github 을 확인한
 
 Fork 받은 Repository 내에  특정 eduUserID 가 다량 포함되어 있다.
 
+
+
+#### yaml 확인
+
+```sh
+$ cd ~/githubrepo/edu00/SampleJava
+
+$ find . -type f -name "*.yaml"
+./manifests/overlays/prd/kustomization.yaml
+./manifests/overlays/prd/ingress-patch.yaml
+./manifests/overlays/prd/deployment-patch.yaml
+./manifests/overlays/dev/kustomization.yaml
+./manifests/overlays/dev/ingress-patch.yaml
+./manifests/overlays/dev/deployment-patch.yaml
+./manifests/base/kustomization.yaml
+./manifests/base/service.yaml
+./manifests/base/ingress.yaml
+./manifests/base/deployment.yaml
+
+
+$ cat ./manifests/base/deployment.yaml
+
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: samplejava
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: samplejava
+  template:
+    metadata:
+      labels:
+        app: samplejava
+    spec:
+      containers:
+        - name: samplejava
+          image: ktdseduacr.azurecr.io/edu00/samplejava:v1.0.0
+          ports:
+          - containerPort: 8080
+
+
+```
+
+* 기본적으로 edu00 으로 표현되어 있으며 이를 edu01(자신의 번호)로 변경해야 한다.
+
+
+
+#### 일괄수정
+
+edu00 --> edu01<자신의edu번호> 로 수정
+
 아래 처럼 sed 명령을 통해 일괄 수정한후 push 한다. (향후 실습시 반드시 필요함)
+
+
 
 ```sh
 $ cd ~/githubrepo/edu00/SampleJava
@@ -400,8 +457,8 @@ $ find . -type f -name "*.yaml" -exec sed -i 's/edu00/edu01/g' {} +
 
 # commit & push
 $ git add .
-  git config --global user.name "rohansong"
-  git config --global user.email "rohansongtop@gmail.com"
+  git config --global user.name "rohansong"               #  <-- 자신의 계정
+  git config --global user.email "rohansongtop@gmail.com" #  <-- 자신의 eMail
   git commit -m "eduuserid changed"
   git push
 
@@ -414,8 +471,8 @@ $ git add .
 ```sh
 
 $ cd ~/githubrepo/edu01/SampleJava
-  cat manifests/base/deployment.yaml
 
+$ cat manifests/base/deployment.yaml
 
 apiVersion : apps/v1
 kind: Deployment
@@ -454,5 +511,19 @@ https://github.com/rohansong/    # <-- 각 개인 계정의 github 을 확인한
 
 
 
+# 4. Azure Portal Login
 
 
+
+* 주소 : https://portal.azure.com
+* ID : 개인별 Azure ID가  존재함.
+  * ex)
+    * edu00@rohansongtopgmail014.onmicrosoft.com
+    * edu01@rohansongtopgmail014.onmicrosoft.com
+    * edu02@rohansongtopgmail014.onmicrosoft.com
+    * edu03@rohansongtopgmail014.onmicrosoft.com
+    * ...
+
+* Password : 별도 공지
+* MFA 설정
+  * 휴대폰에 Athenticator 설치후 로그인 가이드에 따라 MFA 를 설정한다.
