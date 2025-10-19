@@ -159,43 +159,40 @@ C:\githubrepo\ktds-edu-cicd-azure\README.md
 
 원할한 실습을 위해서 개인별 한개씩 VM 이 할당되어 있다. 
 
-수강생별 개인 eduUserID와 VM Server 접속 주소를 확인하자. eduUserID 는 AKS 에서 사용할 개인별 Namespace 로 활용 될 것이다.
+수강생별 개인 eduUserID와 VM Server 접속 주소를 확인하자. eduUserID 는 AKS에서 사용할 개인별 Namespace 로 활용 될 것이다.
 
-| 순번 | 이름     | 소속                   | Email                                       | eduUserID | VM Server | VM Server IP |
-| ---- | -------- | ---------------------- | ------------------------------------------- | --------- | --------- | ------------ |
-| 0    | 송양종   |                        |                                             | edu00     | eduVM00   |              |
-| 1    | 송양종   |                        |                                             | edu01     | eduVM01   |              |
-| 2    | 곽유진   | 인프라컨설팅팀         | uj.kwak@kt.com                              | edu02     | eduVM02   |              |
-| 3    | 김경진   | OSS개발팀              | gjin.kim@kt.com                             | edu03     | eduVM03   |              |
-| 4    | 김나현   | 보안정책팀             | na-hyun.kim@kt.com                          | edu04     | eduVM04   |              |
-| 5    | 김명선   | 미디어AX팀             | myungsun.kim@kt.com                         | edu05     | eduVM05   |              |
-| 6    | 김무성   | 빌링개발팀             | mu-seong.kim@kt.com                         | edu06     | eduVM06   |              |
-| 7    | 김슬예나 | 보안정책팀             | seul.yn@kt.com                              | edu07     | eduVM07   |              |
-| 8    | 김승미   | IA Core2팀             | soomee.kim@kt.com                           | edu08     | eduVM08   |              |
-| 9    | 김영욱   | 데이터DX개발팀         | yw.kim88@kt.com                             | edu09     | eduVM09   |              |
-| 10   | 김용기   | Cloud매니지드팀        | [brave.kim@kt.com](mailto:brave.kim@kt.com) | edu10     | eduVM10   |              |
-| 11   | 김현용   | IA Core2팀             | hyunyong.kim@kt.com                         | edu11     | eduVM11   |              |
-| 12   | 류경하   | 아키텍처팀             | kyungha.ryu@kt.com                          | edu12     | eduVM12   |              |
-| 13   | 오유민   | OSS개발팀              | yumin.oh@kt.com                             | edu13     | eduVM13   |              |
-| 14   | 이건우   | Cloud컨설팅팀          | geonwo.lee@kt.com                           | edu14     | eduVM14   |              |
-| 15   | 이병훈   | DWP개발팀              | byunghoon.lee@kt.com                        | edu15     | eduVM15   |              |
-| 16   | 이상현   | CRM사업팀              | sanghyeon.lee@kt.com                        | edu16     | eduVM16   |              |
-| 17   | 이상화   | 미래에셋증권퇴직연금TF | sanghwa7.lee@kt.com                         | edu17     | eduVM17   |              |
-| 18   | 이유진   | 데이터DX개발팀         | eujin.lee@kt.com                            | edu18     | eduVM18   |              |
-| 19   | 이정운   | Cloud매니지드팀        | jw.jw@kt.com                                | edu19     | eduVM19   |              |
-| 20   | 이충명   | Cloud매니지드팀        | myeong.lee@kt.com                           | edu20     | eduVM20   |              |
-| 21   | 임성식   | 빌링개발팀             | sslim@kt.com                                | edu21     | eduVM21   |              |
-| 22   | 임재필   | 미디어AX팀             | jaepil.lim@kt.com                           | edu22     | eduVM22   |              |
-| 23   | 임진영   | Cloud수행팀            | jinyoung.lim@kt.com                         | edu23     | eduVM23   |              |
-| 24   | 장선후   | Cloud매니지드팀        | jang.sh@kt.com                              | edu24     | eduVM24   |              |
-| 25   | 최민혜   | 고객개발팀             | minhye.choi@kt.com                          | edu25     | eduVM25   |              |
-| 26   | 최유리   | Cloud매니지드팀        | 82307325@kt.com                             | edu26     | eduVM26   |              |
-| 27   | 최지은   | OSS개발팀              | jieun.choi172@kt.com                        | edu27     | eduVM27   |              |
-| 28   | 허진보   | 미디어AX팀             | jinbo.heo@kt.com                            | edu28     | eduVM28   |              |
-| 29   | 홍문기   | Cloud매니지드팀        | 82307326@kt.com                             | edu29     | eduVM29   |              |
-| 30   | 황상미   | AI플랫폼팀             | sangmi.hwang@kt.com                         | edu30     | eduVM30   |              |
-
-
+| 순번 | 이름     | 소속                   | Email                | eduUserID | VM Server IP   |
+| ---- | -------- | ---------------------- | -------------------- | --------- | -------------- |
+| 1    | 송양종   |                        | yj.song@kt.com       | edu01     | 52.141.42.187  |
+| 2    | 곽유진   | 인프라컨설팅팀         | uj.kwak@kt.com       | edu02     | 4.217.217.119  |
+| 3    | 김경진   | OSS개발팀              | gjin.kim@kt.com      | edu03     | 4.217.217.128  |
+| 4    | 김나현   | 보안정책팀             | na-hyun.kim@kt.com   | edu04     | 20.196.91.9    |
+| 5    | 김명선   | 미디어AX팀             | myungsun.kim@kt.com  | edu05     | 4.217.248.225  |
+| 6    | 김무성   | 빌링개발팀             | mu-seong.kim@kt.com  | edu06     | 4.230.25.25    |
+| 7    | 김슬예나 | 보안정책팀             | seul.yn@kt.com       | edu07     | 4.217.186.23   |
+| 8    | 김승미   | IA Core2팀             | soomee.kim@kt.com    | edu08     | 20.214.241.48  |
+| 9    | 김영욱   | 데이터DX개발팀         | yw.kim88@kt.com      | edu09     | 4.230.41.19    |
+| 10   | 김용기   | Cloud매니지드팀        | brave.kim@kt.com     | edu10     | 4.230.41.93    |
+| 11   | 김현용   | IA Core2팀             | hyunyong.kim@kt.com  | edu11     | 4.218.8.116    |
+| 12   | 류경하   | 아키텍처팀             | kyungha.ryu@kt.com   | edu12     | 4.217.217.132  |
+| 13   | 오유민   | OSS개발팀              | yumin.oh@kt.com      | edu13     | 4.217.248.189  |
+| 14   | 이건우   | Cloud컨설팅팀          | geonwo.lee@kt.com    | edu14     | 4.217.186.180  |
+| 15   | 이병훈   | DWP개발팀              | byunghoon.lee@kt.com | edu15     | 4.217.248.217  |
+| 16   | 이상현   | CRM사업팀              | sanghyeon.lee@kt.com | edu16     | 4.218.18.238   |
+| 17   | 이상화   | 미래에셋증권퇴직연금TF | sanghwa7.lee@kt.com  | edu17     | 4.217.218.144  |
+| 18   | 이유진   | 데이터DX개발팀         | eujin.lee@kt.com     | edu18     | 4.217.178.47   |
+| 19   | 이정운   | Cloud매니지드팀        | jw.jw@kt.com         | edu19     | 4.217.178.174  |
+| 20   | 이충명   | Cloud매니지드팀        | myeong.lee@kt.com    | edu20     | 4.230.26.146   |
+| 21   | 임성식   | 빌링개발팀             | sslim@kt.com         | edu21     | 20.196.106.141 |
+| 22   | 임재필   | 미디어AX팀             | jaepil.lim@kt.com    | edu22     | 4.218.8.247    |
+| 23   | 임진영   | Cloud수행팀            | jinyoung.lim@kt.com  | edu23     | 4.217.232.253  |
+| 24   | 장선후   | Cloud매니지드팀        | jang.sh@kt.com       | edu24     | 4.217.233.168  |
+| 25   | 최민혜   | 고객개발팀             | minhye.choi@kt.com   | edu25     | 4.217.248.163  |
+| 26   | 최유리   | Cloud매니지드팀        | 82307325@kt.com      | edu26     | 4.217.187.77   |
+| 27   | 최지은   | OSS개발팀              | jieun.choi172@kt.com | edu27     | 4.218.9.31     |
+| 28   | 허진보   | 미디어AX팀             | jinbo.heo@kt.com     | edu28     | 20.214.240.44  |
+| 29   | 홍문기   | Cloud매니지드팀        | 82307326@kt.com      | edu29     | 4.218.19.56    |
+| 30   | 황상미   | AI플랫폼팀             | sangmi.hwang@kt.com  | edu30     | 4.217.217.88   |
 
 
 
