@@ -399,6 +399,7 @@ Fork 받은 Repository 내에  특정 eduUserID 가 다량 포함되어 있다.
 ```sh
 $ cd ~/githubrepo/edu00/SampleJava
 
+# 변경대상 확인
 $ find . -type f -name "*.yaml"
 ./manifests/overlays/prd/kustomization.yaml
 ./manifests/overlays/prd/ingress-patch.yaml
