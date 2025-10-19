@@ -230,8 +230,6 @@ Mobaxterm 을 실행하여 VM 접속정보를 위한 신규 session 을 생성�
 
 ![image-20250921155037111](./assets/image-20250921155037111.png)
 
-
-
 빨간색 영역을 주의해서 입력한후 접속하자.
 
 
@@ -252,6 +250,10 @@ Mobaxterm 을 실행하여 VM 접속정보를 위한 신규 session 을 생성�
 
 
 ## 3) Github 샘플 소스 Fork
+
+자신의 VM 에 접속하여 샘플 소스를 Fork 받아 보자.
+
+
 
 ### (1) Github 회원가입
 
